@@ -5,8 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Surya's Portfolio</title>
+    <!-- CDN for Bootstrap v4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CDN for Semantic UI v2.3.3 -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
 </head>
+
+<style>
+#dp
+{
+    border-radius: 50%;
+    float: left;
+}
+</style>
+
 <body>
-    <h1>Welcome to my portfolio!</h1>
+    <div class=container>
+        <div class=container style="padding: 0 30%; padding-top: 5%;">
+            <img id="dp" src="./profile.jpg" height="200px" width="200px" alt="dp">
+            <div style="float: right;">
+                <h3>Surya Kumar</h3>
+                <span><i class="map marker icon"></i>Neyveli</span>
+                <br><br><br>
+                <div class="ui big circular blue labels">
+                    <span class="ui label">Hi</span>
+                    <br>
+                    <span class="ui label">Welcome to my profile</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
